@@ -66,7 +66,6 @@ class TypeDataset(Dataset):
 # In[5]:
 
 
-train_data = TypeDataset(annotations_file=utils.annotations_dir + 'train_set.json')
 test_data = TypeDataset(annotations_file=utils.annotations_dir + 'test_set.json')
 
 
